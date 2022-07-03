@@ -1,0 +1,236 @@
+.middle-section {
+  display: flex;
+  flex-direction: column;
+  margin-left: 12%;
+  width: 100%;
+  height: 100%;
+}
+
+.tweet-container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 54px;
+  margin-left: 2px;
+  border-bottom: 1px solid rgb(242, 242, 242);
+}
+
+@media (max-width: 1000px) {
+  .tweet-container, .tweet-container-tweets {
+    border-right: 1px solid rgb(242, 242, 242);
+    width: 80%;
+  }
+}
+
+.whats-happening-tweet {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.whats-happening-text {
+  font-size: 18px;
+  color: grey;
+  font-weight: bold;
+}
+
+.whats-happening-buttons {
+  margin-left: 70px;
+  display: flex;
+  padding-bottom: 8px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.tweet-icons {
+  height: 17px;
+  margin-right: 3px;
+  padding: 12px;
+  cursor: pointer;
+  border-radius: 16px;
+}
+
+.tweet-icons:hover {
+  background-color: rgba(0, 172, 238, 0.1);
+}
+
+.tweet-middle-button {
+  border: none;
+  background-color: rgba(0, 172, 238, 0.3);
+  color: white;
+  font-size: 14px;
+  font-weight: bold;
+  padding: 10px 15px 10px 15px;
+  border-radius: 25px;
+  cursor: pointer;
+  margin-right: 20px;
+}
+
+.margin {
+  margin-top: 5px;
+  border-bottom: 1px solid rgb(242, 242, 242);
+}
+
+.tweet-container-tweets {
+  padding-top: 17px;
+  margin-left: 2px;
+  border-bottom: 1px solid rgb(242, 242, 242);
+  transition: background-color 0.2s;
+  cursor: pointer;
+}
+
+.tweet-container-tweets:hover {
+  background-color: rgb(242, 242, 242);
+}
+
+.top-section {
+  display: flex;
+  justify-content: space-between;
+}
+
+.verified-icon-tweet {
+  position: absolute;
+  width: 17px;
+  top: 7px;
+  left: 130px;
+}
+
+.left-side {
+  display: flex;
+  margin-left: 10px;
+}
+
+.tweet-name {
+  font-size: 17px;
+  font-weight: bold;
+  padding: 6px 0 0 0;
+  margin: 0;
+  cursor: pointer;
+}
+
+.tweet-name-verified {
+  position: relative;
+}
+
+.tweet-nickname {
+  font-size: 15px;
+  color: grey;
+  margin: 3px 0 0 0;
+}
+
+.tweet-name:hover {
+  text-decoration: underline;
+}
+
+.tweet {
+  font-size: 15px;
+  padding-left: 25px;
+  padding-top: 25px;
+  padding-right: 25px;
+  padding-bottom: 15px;
+}
+
+.bottom-section {
+  display: flex;
+  flex-direction: row;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 5px;
+  justify-content: space-between;
+  cursor: pointer;
+}
+
+.comment-button, .retweet-button, .like-button, .share-button,
+.donnate-button {
+  display: flex;
+  align-items: center;
+}
+
+.bottom-section-icon-information, .bottom-section-icon-donate {
+  font-size: 13px;
+  color: grey;
+}
+
+.bottom-section-icon-donate {
+  font-weight: bold;
+}
+
+.timeline-tweet-icon-comment, .timeline-tweet-icon-retweet,
+.timeline-tweet-icon-like, .timeline-tweet-icon-share,
+.timeline-tweet-icon-donnate {
+  height: 17px;
+  margin-right: 3px;
+  padding: 12px;
+  border-radius: 20px;
+  transition: color 0.2s;
+  transition: background-color 0.2s;
+}
+
+.timeline-tweet-icon-comment:hover {
+  background-color: rgba(0, 172, 238, 0.1);
+}
+
+.timeline-tweet-icon-retweet:hover {
+  background-color: rgba(0, 186, 124, 0.1);
+}
+
+.timeline-tweet-icon-like:hover {
+  background-color: rgba(238, 0, 186, 0.1);
+}
+
+.timeline-tweet-icon-share:hover {
+  background-color: rgba(0, 172, 238, 0.1);
+}
+
+.bottom-section-icon-donate:hover {
+  color: rgb(184, 1, 184);
+}
+
+.tweet-image {
+  display: flex;
+  width: 80%;
+  border: none;
+}
+
+.image-tweet {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 5px;
+  background-color: rgb(24, 31, 25)
+}
+
+.tweet-image-pizza {
+  display: flex;
+  width: 100%;
+  border: none;
+}
+
+
+@media (min-width: 1301px) {
+  .tweet-container, .tweet-container-tweets {
+    width: 100%;
+  }
+}
+
+
+@media (max-width: 1000px) {
+  .tweet-container, .tweet-container-tweets {
+    width: 100%;
+  }
+}
+
+@media (max-width: 900px) {
+  .header-container, .tweet-container-tweets {
+    width: 100%;
+  }
+}
+
+@media (max-width: 800px) {
+  .header-container {
+    width: 100%;
+  }
+}
+
+@media (max-width: 700px) {
+  .header-container {
+    width: 100%;
+  }
+}

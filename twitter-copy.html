@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Twitter Clone</title>
+  <link rel="stylesheet" href="styles/left-sidebar.css">
+  <link rel="stylesheet" href="/styles/general.css">
+  <link rel="stylesheet" href="/styles/main.css">
+  <link rel="stylesheet" href="/styles/header.css">
+  <link rel="stylesheet" href="/styles/right-sidebar.css">
+</head>
+<body>
+  <nav class="left-sidebar">
+    <button class="twitter-button">
+      <img class="twitter-icon" src="/Icons/twitter-logo.png" alt="twitter logo">
+    </button>
+    <button class="home-button">
+      <img class="left-icons" src="/Icons/home-icon.png" alt="home-icon">
+      <div class="home-button-notification"></div>
+    </button>
+    <button class="left-buttons">
+      <img class="left-icons" src="/Icons/hashtag-icon.png" alt="hashtag-icon">
+    </button>
+    <button class="notifications-button">
+      <img class="left-icons" src="/Icons/notifications-icon.png" alt="notification-icon">
+      <div class="notifications-button-notification">20+</div>
+    </button>
+    <button class="left-buttons">
+      <img class="left-icons" src="/Icons/mail-icon.png" alt="mail-icon">
+    </button>
+    <button class="left-buttons">
+      <img class="left-icons" src="/Icons/bookmark-icon.png" alt="bookmark-icon">
+    </button>
+    <button class="left-buttons">
+      <img class="left-icons" src="/Icons/lists-icon.png" alt="list-icon">
+    </button>
+    <button class="left-buttons">
+      <img class="left-icons" src="/Icons/profile-icon.png" alt="profile-icon">
+    </button>
+    <button class="left-buttons">
+      <img class="left-icons" src="/Icons/more-icon.png" alt="more-icon">
+    </button>
+    <button class="tweet-button">
+      <img class="tweet-icon" src="/Icons/tweet-icon.png" alt="tweet logo">
+    </button>
+    <div class="sidebar-profile">
+      <img class="profile" src="/profile/profile.jpg" alt="profile picture">
+    </div>
+  </nav>
+
+  <nav class="right-sidebar">
+    
+    <div class="search-input-container">
+      <img class="search-icon" src="/Icons/search-icon.png" alt="search icon">
+      <input class="search-input" type="text" placeholder="Search Twitter">
+    </div>
+
+    <div class="whats-happening-container">
+      <div class="whats-happening-title">What's happening</div>
+      <div class="first-news">
+        <p class="grey-text">Entertainment &middot; Trending</p>
+        <p class="tweet-name">TV Globinho</p>
+        <p class="grey-text">1.835 Tweets</p>
+      </div>
+      <div class="second-news">
+        <div class="first-news">
+          <p class="grey-text">Technology &middot; Trending</p>
+          <p class="tweet-name">Apple</p>
+          <p class="grey-text">608K Tweets</p>
+      </div>
+      <div class="fourth-news">
+        <div class="first-news">
+          <p class="grey-text">Technology &middot; Trending</p>
+          <p class="tweet-name">Zuckerberg</p>
+          <p class="grey-text">5.034 Tweets</p>
+      </div>
+      <div class="fifth-news">
+        <div class="first-news">
+          <p class="grey-text">Gaming &middot; Trending</p>
+          <p class="tweet-name">Tighnari</p>
+          <p class="grey-text">24.3K Tweets</p>
+      </div>
+      <div class="third-news">
+        <div class="first-news">
+          <div class="third-news-first-section">
+            <p class="grey-text">Wair in Ukraine &middot; LIVE</p>
+          </div>
+          <div class="third-news-second-section">
+            <p class="tweet-name">Latest updates on the war in Ukraine</p>
+            <img class="third-news-image" src="/profile/sidebar-image.jfif" alt="Latest update on the war in Ukraine">
+          </div>
+        </div>
+      </div>
+      <div class="show-more-button">Show more</div>
+    </div>
+    
+    <div class="who-to-follow-container">
+      <div class="whats-happening-title">Who to follow</div>  
+      <div class="account-to-follow">
+        <img class="to-follow-profile" src="/profile/flaticon-profile.jpg" alt="">
+        <div class="name-username">
+          <div class="tweet-name">Flaticon</div>
+          <div class="grey-text">@flaticon</div>
+        </div>
+        <button class="follow-right-sidebar-button">Follow</button>
+      </div> 
+      <div class="account-to-follow">
+        <img class="to-follow-profile" src="/profile/elon-musk-profile.jpg" alt="">
+        <div class="name-username">
+          <div class="user-verified">
+            <div class="tweet-name">Elon Musk</div>
+            <img class="verified-icon" src="/Icons/verified-icon.png" alt="verified icon">
+          </div>
+          <div class="grey-text">@elonmusk</div>
+        </div>
+        <button class="follow-right-sidebar-button">Follow</button>
+      </div>  
+      <div class="account-to-follow">
+        <img class="to-follow-profile" src="/profile/coinbase-profile.png" alt="">
+        <div class="name-username">
+          <div class="user-verified">
+            <div class="tweet-name">Coinbase</div>
+            <img class="verified-icon" src="/Icons/verified-icon.png" alt="verified icon">
+          </div>
+          <div class="grey-text">@coinbase</div>
+        </div>
+        <button class="follow-right-sidebar-button">Follow</button>
+    </div>
+    <div class="show-more-button">Show more</div>
+  </nav>
+
+
+  <header>
+    <div class="header-container">
+      <h3>Home</h3>
+      <button class="header-button">
+        <img class="left-icons" src="/Icons/start-icon.png" alt="">
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <div class="middle-section">
+      
+      <div class="tweet-container">
+        <div class="whats-happening-tweet">
+          <img class="to-follow-profile" src="/profile/profile.jpg" alt="">
+          <p class="whats-happening-text">What's happening?</p>
+        </div>
+        <div class="whats-happening-buttons">
+          <div class="icons">
+            <img class="tweet-icons" src="/Icons/media-icon.png" alt="media icon">
+            <img class="tweet-icons" src="/Icons/gif-icon.png" alt="media icon">
+            <img class="tweet-icons" src="/Icons/pool-icon.png" alt="media icon">
+            <img class="tweet-icons" src="/Icons/emoji-icon.png" alt="media icon">
+            <img class="tweet-icons" src="/Icons/schedule-icon.png" alt="media icon">
+            <img class="tweet-icons" src="/Icons/location-icon.png" alt="media icon">
+          </div>
+          <button class="tweet-middle-button">Tweet</button>
+        </div>
+      </div>
+
+      <div class="margin"></div>
+
+      <div class="tweet-container-tweets">
+        <div class="top-section">
+          <div class="left-side">
+            <img class="to-follow-profile" src="/profile/snowden-profile.jpg" alt="">
+            <div>
+              <div class="tweet-name-verified">
+                <p class="tweet-name">Edward Snowden</p>
+                <img class="verified-icon-tweet" src="/Icons/verified-icon.png" alt="verified icon">
+              </div>
+              <p class="tweet-nickname">@Snowden &middot; 2h</p>
+            </div>
+          </div>
+          <div class="right-side">
+            <div>
+              <img class="tweet-icons" src="/Icons/more-no-border--icon.png" alt="">
+            </div>
+          </div>
+        </div>
+        <div class="tweet">The fact that is considered legal for a corporation to compile perfect
+           records of your private life simply because you had to "click OK to continue" to make
+            your phone work is a perfect expression of who holds the power in society and why
+             they should be cast into the sea.
+        </div>
+        <div class="bottom-section">
+          <div class="comment-button">
+            <img class="timeline-tweet-icon-comment" src="/Icons/comment-icon.png" alt="">
+            <div class="bottom-section-icon-information">1,411</div>
+          </div>
+          <div class="retweet-button">
+            <img class="timeline-tweet-icon-retweet" src="/Icons/retweet-icon.png" alt="">
+            <div class="bottom-section-icon-information">23.7K</div>
+          </div>
+          <div class="like-button">
+            <img class="timeline-tweet-icon-like" src="/Icons/like-icon.png" alt="">
+            <div class="bottom-section-icon-information">103K</div>
+          </div>
+          <div class="share-button">
+            <img class="timeline-tweet-icon-share" src="/Icons/share-icon.png" alt="">
+          </div>
+          <div class="donnate-button">
+            <img class="timeline-tweet-icon-donnate" src="/Icons/donate-icon.svg" alt="">
+            <div class="bottom-section-icon-donate">Donate</div>
+          </div>
+        </div>
+      </div>
+      
+      <div class="tweet-container-tweets">
+        <div class="top-section">
+          <div class="left-side">
+            <img class="to-follow-profile" src="/profile/heaven-and-earth-profile.jpg" alt="">
+            <div>
+              <p class="tweet-name">Heaven AND Earth</p>
+              <p class="tweet-nickname">@earth_locations &middot; 12h</p>
+            </div>
+          </div>
+          <div class="right-side">
+            <div>
+              <img class="tweet-icons" src="/Icons/more-no-border--icon.png" alt="">
+            </div>
+          </div>
+        </div>
+          <div class="tweet">Italy</div>
+        <div class="image-tweet">
+          <img class="tweet-image" src="/tweets/italy-location-tweet.jfif" alt="">
+        </div>
+        <div class="bottom-section">
+          <div class="comment-button">
+            <img class="timeline-tweet-icon-comment" src="/Icons/comment-icon.png" alt="">
+            <div class="bottom-section-icon-information">659</div>
+          </div>
+          <div class="retweet-button">
+            <img class="timeline-tweet-icon-retweet" src="/Icons/retweet-icon.png" alt="">
+            <div class="bottom-section-icon-information">14.2K</div>
+          </div>
+          <div class="like-button">
+            <img class="timeline-tweet-icon-like" src="/Icons/like-icon.png" alt="">
+            <div class="bottom-section-icon-information">221.5K</div>
+          </div>
+          <div class="share-button">
+            <img class="timeline-tweet-icon-share" src="/Icons/share-icon.png" alt="">
+          </div>
+          <div class="donnate-button">
+            <img class="timeline-tweet-icon-donnate" src="/Icons/donate-icon.svg" alt="">
+            <div class="bottom-section-icon-donate">Donate</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="tweet-container-tweets">
+        <div class="top-section">
+          <div class="left-side">
+            <img class="to-follow-profile" src="/profile/world-of-engineering.jpg" alt="">
+            <div>
+              <p class="tweet-name">World of Engineering</p>
+              <p class="tweet-nickname">@engineers_feed &middot; 15h</p>
+            </div>
+          </div>
+          <div class="right-side">
+            <div>
+              <img class="tweet-icons" src="/Icons/more-no-border--icon.png" alt="">
+            </div>
+          </div>
+        </div>
+          <div class="tweet">This is why it’s called ‘pizza’ 🍕</div>
+        <div class="image-tweet">
+          <img class="tweet-image-pizza" src="/tweets/pizza-tweet.jfif" alt="">
+        </div>
+        <div class="bottom-section">
+          <div class="comment-button">
+            <img class="timeline-tweet-icon-comment" src="/Icons/comment-icon.png" alt="">
+            <div class="bottom-section-icon-information">725</div>
+          </div>
+          <div class="retweet-button">
+            <img class="timeline-tweet-icon-retweet" src="/Icons/retweet-icon.png" alt="">
+            <div class="bottom-section-icon-information">8,572</div>
+          </div>
+          <div class="like-button">
+            <img class="timeline-tweet-icon-like" src="/Icons/like-icon.png" alt="">
+            <div class="bottom-section-icon-information">43.4K</div>
+          </div>
+          <div class="share-button">
+            <img class="timeline-tweet-icon-share" src="/Icons/share-icon.png" alt="">
+          </div>
+          <div class="donnate-button">
+            <img class="timeline-tweet-icon-donnate" src="/Icons/donate-icon.svg" alt="">
+            <div class="bottom-section-icon-donate">Donate</div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </main>
+</body>
+</html>
